@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ERUDIT — Тренировка памяти и словарного запаса</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    .container { max-width: 600px; background: white; border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; }
+    .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 30px; text-align: center; }
+    .icon { width: 100px; height: 100px; margin: 0 auto 30px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+    .hero h1 { font-size: 2.2em; margin-bottom: 10px; font-weight: 700; }
+    .hero p { font-size: 1.1em; opacity: 0.9; }
+    .content { padding: 40px 30px; }
+    .feature { margin-bottom: 30px; }
+    .feature h3 { color: #667eea; margin-bottom: 8px; font-size: 1.1em; }
+    .feature p { color: #666; line-height: 1.6; }
+    .features-list { list-style: none; margin: 25px 0; }
+    .features-list li { padding: 10px 0; color: #555; border-bottom: 1px solid #f0f0f0; }
+    .features-list li:last-child { border-bottom: none; }
+    .features-list li:before { content: "✓ "; color: #667eea; font-weight: bold; margin-right: 10px; }
+    .cta { display: flex; flex-direction: column; gap: 12px; margin: 30px 0; }
+    .btn { padding: 14px 24px; border: none; border-radius: 8px; font-size: 1em; font-weight: 600; cursor: pointer; text-decoration: none; text-align: center; transition: all 0.3s; }
+    .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3); }
+    .btn-secondary { background: #f0f0f0; color: #333; }
+    .btn-secondary:hover { background: #e0e0e0; }
+    .footer { background: #f8f9fa; padding: 30px; text-align: center; color: #666; font-size: 0.9em; border-top: 1px solid #e0e0e0; }
+    .footer a { color: #667eea; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+    .offline-badge { display: inline-block; background: #e8f4f8; color: #0277bd; padding: 6px 12px; border-radius: 20px; font-size: 0.85em; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <img src="icon.png" alt="ERUDIT" class="icon">
+      <h1>ERUDIT</h1>
+      <p>Тренировка памяти и словарного запаса</p>
+    </div>
+
+    <div class="content">
+      <div style="text-align: center;">
+        <span class="offline-badge">🔒 100% офлайн, без сбора данных</span>
+      </div>
+
+      <div class="feature">
+        <h3>Что это?</h3>
+        <p>ERUDIT — это не казуальная головоломка, а система для тренировки когнитивных функций. Механика построена так, чтобы вы никогда не могли "просто пройти" игру до конца. Каждое задание адаптируется к вашему уровню навыка.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Режимы игры</h3>
+        <ul class="features-list">
+          <li>Собери слова из букв — буквы перемешаны, нужна логика</li>
+          <li>Колесо букв — вращайте колесо, ищите слова в сетке</li>
+          <li>Кроссворд в свободной форме — слова пересекаются как в настоящем кроссворде</li>
+          <li>Адаптивный рейтинг — система ELO следит за вашим уровнем</li>
+        </ul>
+      </div>
+
+      <div class="feature">
+        <h3>Личный прогресс</h3>
+        <p>Отслеживайте свой прогресс: уровень, опыт, точность ответов за неделю, достижения. Система хранит всё локально на вашем устройстве.</p>
+      </div>
+
+      <div class="feature">
+        <h3>Приватность</h3>
+        <p>Все данные хранятся только на вашем устройстве. Никаких серверов, никакой аналитики, никакой рекламы. Приложение работает полностью офлайн.</p>
+      </div>
+
+      <div class="cta">
+        <a href="#" class="btn btn-primary">Скоро в App Store</a>
+        <a href="https://subitoit83-tech.github.io/erudit-privacy/" class="btn btn-secondary">Политика конфиденциальности</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Остались вопросы? Напишите нам: <a href="mailto:subitoit83@gmail.com">subitoit83@gmail.com</a></p>
+      <p style="margin-top: 15px; font-size: 0.85em;">© 2026 ERUDIT. Все права защищены.</p>
+    </div>
+  </div>
+</body>
+</html>
